@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdSoyad" xml:space="preserve">
+    <value>Voornaam Achternaam</value>
+  </data>
+  <data name="anasayfa" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="bal" xml:space="preserve">
+    <value>LICHTE AMBER NOTEN.</value>
+  </data>
+  <data name="Cumartesi" xml:space="preserve">
+    <value>Zaterdag</value>
+  </data>
+  <data name="DalındanSofranızaDünyanınHerNoktasına" xml:space="preserve">
+    <value>"Van Boom Tot Tafel, Wereldwijd"</value>
+  </data>
+  <data name="Galeri" xml:space="preserve">
+    <value>Galerij</value>
+  </data>
+  <data name="gaz" xml:space="preserve">
+    <value>GAZELLİ GRUP</value>
+  </data>
+  <data name="Gorevımız" xml:space="preserve">
+    <value>Onze missie</value>
+  </data>
+  <data name="Gorevımızz" xml:space="preserve">
+    <value>Kwalitatieve service en producten aanbieden</value>
+  </data>
+  <data name="gruplarımız" xml:space="preserve">
+    <value>Onze Groepen</value>
+  </data>
+  <data name="Hakkımızd" xml:space="preserve">
+    <value>Over Ons</value>
+  </data>
+  <data name="hakkımızda" xml:space="preserve">
+    <value>Over Ons</value>
+  </data>
+  <data name="hakkımızdaa" xml:space="preserve">
+    <value>Sinds 2015 zijn we gepassioneerde walnootliefhebbers.</value>
+  </data>
+  <data name="hakkımızdaaa" xml:space="preserve">
+    <value>"Gazelli Group Food Marketing Industrie Handel LTD. ŞTİ. is opgericht door de familie CEYLAN, een familiebedrijf. Ons bedrijf, dat vooral actief is in noten en landbouwproducten, is wereldwijd actief, vooral in de VS, Chili, Oekraïne en Turkije. Onze importportfolio omvat gepelde walnoten en walnootproducten van Amerikaanse, Chileense en Oekraïense oorsprong. Gazelli Group voorziet in uw wensen met noten en landbouwproducten die wij rechtstreeks inkopen bij toonaangevende producenten uit de sector."</value>
+  </data>
+  <data name="hakkımızdaaaa" xml:space="preserve">
+    <value>Gazelli Grup, die altijd prioriteit geeft aan klanttevredenheid, opereert met een aanpak die erop gericht is klanten de beste service te bieden door met haar ervaren en deskundige team op de hoogte te blijven van de huidige ontwikkelingen in de branche. Handelend in overeenstemming met de principes van kwaliteit, redelijke prijzen en snelle levering, streeft Gazelli Grup ernaar klanten de beste winkelervaring te bieden. Ons bedrijf vernieuwt voortdurend zijn visie en vergroot zijn betrouwbaarheid in de sector door snelle en effectieve oplossingen te bieden voor de eisen van de klant.</value>
+  </data>
+  <data name="helal" xml:space="preserve">
+    <value>Ons Halal-certificaat</value>
+  </data>
+  <data name="helall" xml:space="preserve">
+    <value>Betrouwbare dienstverlening</value>
+  </data>
+  <data name="ihtiyacınızolan" xml:space="preserve">
+    <value>Wat je nodig hebt</value>
+  </data>
+  <data name="kalıte" xml:space="preserve">
+    <value>Kwaliteit zit in de details</value>
+  </data>
+  <data name="kalıtee" xml:space="preserve">
+    <value>Aandachtig</value>
+  </data>
+  <data name="kalıteee" xml:space="preserve">
+    <value>Een weerspiegeling is</value>
+  </data>
+  <data name="Kapalı" xml:space="preserve">
+    <value>Gesloten</value>
+  </data>
+  <data name="kelebek" xml:space="preserve">
+    <value>WALNOOT HELFTEN</value>
+  </data>
+  <data name="Konu" xml:space="preserve">
+    <value>Onderwerp</value>
+  </data>
+  <data name="kırık" xml:space="preserve">
+    <value>Nootstukken</value>
+  </data>
+  <data name="kızıl" xml:space="preserve">
+    <value>AMBER WALNOOT</value>
+  </data>
+  <data name="MESA" xml:space="preserve">
+    <value>Bericht versturen</value>
+  </data>
+  <data name="Mesajınız" xml:space="preserve">
+    <value>Jouw bericht...</value>
+  </data>
+  <data name="pazar" xml:space="preserve">
+    <value>Zondag</value>
+  </data>
+  <data name="PazartesıCuma" xml:space="preserve">
+    <value>Maandag vrijdag</value>
+  </data>
+  <data name="SağlıkveLezzetinAdıGazelliCevizi" xml:space="preserve">
+    <value>Gezondheid en Smaak, Gazelli Walnoot</value>
+  </data>
+  <data name="SosyalMedyadanBiziTakipEdin" xml:space="preserve">
+    <value>Volg ons op sociale media</value>
+  </data>
+  <data name="str_welcome_message" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>"Stukken walnoot" Over het algemeen
+de notenpit betekent die uit de buitenschil is verwijderd, wat betekent dat het vrij is van de schaal en de binnenmembranen. Deze binnenste walnootkernen, gescheiden van hun schelpen, worden vaak in gebroken of gehakte vorm aangetroffen. Dit maakt het gemakkelijker om de binnenste walnoot te consumeren. Gebroken walnoten kunnen worden gebruikt in salades, maaltijden, desserts of snacks.</value>
+  </data>
+  <data name="text1" xml:space="preserve">
+    <value>Walnoten bevatten voedingsstoffen die veel gezondheidsvoordelen bieden, dus het consumeren van gebroken walnoten draagt bij aan de inname van voedingsstoffen zoals omega-3 vetzuren, antioxidanten, vitaminen en mineralen. Gebroken walnoten dienen in het bijzonder als een bron van alfa-linoleenzuur (ALA), dat een omega-3 vetzuur is. Omega-3 vetzuren kunnen verschillende gezondheidsvoordelen bieden, waaronder ondersteuning van de hersengezondheid, hartgezondheid en het bestrijden van ontstekingen. Walnoten zijn rijk aan antioxidanten. Antioxidanten kunnen het lichaam beschermen tegen de schadelijke effecten van vrije radicalen en celbeschadiging verminderen.</value>
+  </data>
+  <data name="text2" xml:space="preserve">
+    <value>Walnoten dragen bij aan gewichtsbeheersing dankzij hun vullende eigenschappen. Door je langer een vol gevoel te geven, dragen ze bij aan het verminderen van het risico op te veel eten. Vezel is een ingrediënt dat bijdraagt aan de gezondheid van de spijsvertering en een gevoel van verzadiging geeft. Walnoten zijn rijk aan vezels. Ze dienen ook als een plantaardige eiwitbron. Eiwit is essentieel voor de reparatie van lichaamsweefsels, spierontwikkeling en verschillende andere biologische processen.</value>
+  </data>
+  <data name="text2.5" xml:space="preserve">
+    <value>De vitamines, mineralen en antioxidanten die in walnoten worden aangetroffen, ondersteunen de gezondheid van de huid en verminderen tekenen van veroudering. Walnoten bevatten omega-3-vetzuren, antioxidanten en andere voedingsstoffen die de gezondheid van het hart ondersteunen. Dankzij deze eigenschappen kunnen ze de gezondheid van het cardiovasculaire systeem verbeteren.</value>
+  </data>
+  <data name="text3" xml:space="preserve">
+    <value>Walnut is een hoogwaardig product dat wordt verzameld van walnotenbomen die groeien in de provincie Kahramanmaraş in Turkije. De unieke smaak- en aroma-eigenschappen van de Maraş18 butterfly walnut worden gevormd door de geografische omstandigheden in deze regio. Zijn dunne schil en grote binnenste structuur winnen zelfs de goedkeuring van de meest kritische fijnproevers. Echter, de Maraş18 butterfly walnut valt niet alleen op door zijn smaak, maar ook door de voordelen voor de gezondheid</value>
+  </data>
+  <data name="text3.5" xml:space="preserve">
+    <value>Rijk aan omega-3-vetzuren, antioxidanten, vitamine E, magnesium en andere voedingsstoffen, is de Maraş18 butterfly-walnoot gunstig voor de gezondheid van de hersenen en mentale functies. Onderzoek geeft aan dat regelmatige consumptie van deze voedingsstoffen kan bijdragen aan de vernieuwing van hersencellen en de verbetering van hersenfuncties. Daarnaast kan de Maraş18 butterfly-walnoot helpen het risico op verschillende ziekten, zoals hartziekten, diabetes, kanker en meer, te verminderen. Het wordt gebruikt in veel verschillende recepten, variërend van hartige gerechten tot desserts. Het kan zowel geroosterd als rauw worden geconsumeerd.</value>
+  </data>
+  <data name="text4" xml:space="preserve">
+    <value>Walnut is een hoogwaardig product dat wordt verzameld van walnotenbomen die groeien in de provincie Kahramanmaraş in Turkije. De unieke smaak- en aroma-eigenschappen van de Maraş18 butterfly walnut worden gevormd door de geografische omstandigheden in deze regio. Zijn dunne schil en grote binnenste structuur winnen zelfs de goedkeuring van de meest kritische fijnproevers. Echter, de Maraş18 butterfly walnut valt niet alleen op door zijn smaak, maar ook door de voordelen voor de gezondheid</value>
+  </data>
+  <data name="text4.5" xml:space="preserve">
+    <value>Rijk aan omega-3-vetzuren, antioxidanten, vitamine E, magnesium en andere voedingsstoffen, is de Maraş18 butterfly-walnoot gunstig voor de gezondheid van de hersenen en mentale functies. Onderzoek geeft aan dat regelmatige consumptie van deze voedingsstoffen kan bijdragen aan de vernieuwing van hersencellen en de verbetering van hersenfuncties. Daarnaast kan de Maraş18 butterfly-walnoot helpen het risico op verschillende ziekten, zoals hartziekten, diabetes, kanker en meer, te verminderen. Het wordt gebruikt in veel verschillende recepten, variërend van hartige gerechten tot desserts. Het kan zowel geroosterd als rauw worden geconsumeerd.</value>
+  </data>
+  <data name="text5" xml:space="preserve">
+    <value>"AMBER WALNUT," behorend tot de Juglans regia-soort, is een soort walnoot. De Perzische walnotenboom is doorgaans groot en langlevend, met grote, samengestelde bladeren die gekartelde randen hebben. Het fruit van de Perzische walnoot is over het algemeen groot en heeft een harde schaal. De schaal kan variëren in kleur van lichtbruin tot roodachtig. Het binnenste deel van de Perzische walnoot, vooral bij sommige ondersoorten van Juglans regia, bevat een rijke smaak en olie. Het is een zeer voedzame en energieke snack. Perzische walnoten groeien in gematigde klimaten en zijn te vinden in een groot geografisch gebied. Dit type wordt vaak geteeld in beboste gebieden in Azië, Europa en Noord-Amerika.</value>
+  </data>
+  <data name="text5.5" xml:space="preserve">
+    <value>Walnoten zijn rijk aan omega-3-vetzuren, antioxidanten, eiwitten en vezels, waardoor ze een gezonde voedselbron zijn. Sommige onderzoeken suggereren dat regelmatig walnoten consumeren de gezondheid van het hart kan ondersteunen en andere gezondheidsvoordelen kan bieden. De schaal van Perzische walnoten heeft doorgaans kleurtinten variërend van bruin tot roodachtig, wat vooral opvallend is bij rijpe walnoten en dient als een onderscheidend kenmerk ten opzichte van andere walnootvariëteiten. Het binnenste deel van de Perzische walnoot, vooral bij specifieke ondersoorten, heeft een intense smaak en karakteristieke geur, wat het onderscheidt van andere walnootsoorten.</value>
+  </data>
+  <data name="urunGruplarımız" xml:space="preserve">
+    <value>Onze Productgroep</value>
+  </data>
+  <data name="ÇEYREK" xml:space="preserve">
+    <value>Kwart helften walnoot</value>
+  </data>
+  <data name="ürün" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Ürünlerimiz" xml:space="preserve">
+    <value>ONZE PRODUCTEN</value>
+  </data>
+  <data name="İletişim" xml:space="preserve">
+    <value>Communicatie</value>
+  </data>
+  <data name="ıhtıyacınızolan" xml:space="preserve">
+    <value>Wat je nodig hebt</value>
+  </data>
+  <data name="ıle" xml:space="preserve">
+    <value>Neem contact op</value>
+  </data>
+  <data name="ılet" xml:space="preserve">
+    <value>Communicatie</value>
+  </data>
+  <data name="ılett" xml:space="preserve">
+    <value>Neem contact met ons op</value>
+  </data>
+  <data name="ılettt" xml:space="preserve">
+    <value>Snelle communicatie</value>
+  </data>
+  <data name="ıletttt" xml:space="preserve">
+    <value>Gazelli Grup  kwalite producten tegen betaalbare prijzen en snel bij u bezorgen, zetten we klanttevredenheid voorop. Om u de beste service te kunnen bieden, ontwikkelen we onszelf voortdurend en handelen we met een open houding ten opzichte van vernieuwingen.</value>
+  </data>
+  <data name="ılettttt" xml:space="preserve">
+    <value>Gazelli Grup: We brengen de smaak naar alle uithoeken van de wereld!</value>
+  </data>
+  <data name="ıletısımeGec" xml:space="preserve">
+    <value>Neem contact op</value>
+  </data>
+  <data name="ıltttt" xml:space="preserve">
+    <value>Contact Formulier</value>
+  </data>
+  <data name="ılttttt" xml:space="preserve">
+    <value>ZEND ONS EEN BERICHT</value>
+  </data>
+  <data name="ıso" xml:space="preserve">
+    <value>ISO 9001 Ons certificaat</value>
+  </data>
+  <data name="ısoo" xml:space="preserve">
+    <value>Internationale Zekerheid</value>
+  </data>
+</root>

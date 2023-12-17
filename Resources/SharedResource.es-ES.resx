@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdSoyad" xml:space="preserve">
+    <value>Nombre Apellido</value>
+  </data>
+  <data name="anasayfa" xml:space="preserve">
+    <value>Página principal</value>
+  </data>
+  <data name="bal" xml:space="preserve">
+    <value>NUEZ COLOR ÁMBAR CLARO</value>
+  </data>
+  <data name="Cumartesi" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="DalındanSofranızaDünyanınHerNoktasına" xml:space="preserve">
+    <value>Desde el árbol hasta tu mesa, a cualquier parte del mundo.</value>
+  </data>
+  <data name="Galeri" xml:space="preserve">
+    <value>Galería</value>
+  </data>
+  <data name="gaz" xml:space="preserve">
+    <value>GAZELLİ GRUP</value>
+  </data>
+  <data name="Gorevımız" xml:space="preserve">
+    <value>Nuestra misión</value>
+  </data>
+  <data name="Gorevımızz" xml:space="preserve">
+    <value>Ofrecer servicios y productos de calidad.</value>
+  </data>
+  <data name="gruplarımız" xml:space="preserve">
+    <value>Nuestras categorías de</value>
+  </data>
+  <data name="Hakkımızd" xml:space="preserve">
+    <value>Sobre nosotros</value>
+  </data>
+  <data name="hakkımızda" xml:space="preserve">
+    <value>Sobre nosotros</value>
+  </data>
+  <data name="hakkımızdaa" xml:space="preserve">
+    <value>Desde 2015, somos apasionados por las nueces.</value>
+  </data>
+  <data name="hakkımızdaaa" xml:space="preserve">
+    <value>Gazelli Grup Gıda Pazarlama Sanayi Ticaret LTD. ŞTİ., la familia CEYLAN fundó la empresa como un negocio familiar. Especializada en frutos secos y productos agrícolas, nuestra empresa opera a nivel mundial, especialmente en los Estados Unidos, Chile, Ucrania y Turquía. En nuestro portafolio de importación, contamos con nueces con cáscara y productos de nueces originarios de Estados Unidos, Chile y Ucrania. Gazelli Grup satisface sus necesidades con frutos secos y productos agrícolas directamente suministrados por los principales productores del sector.</value>
+  </data>
+  <data name="hakkımızdaaaa" xml:space="preserve">
+    <value>Gazelli Grup, siempre actúa con una filosofía centrada en la satisfacción del cliente. Nuestro equipo experimentado y experto se compromete a brindar el mejor servicio a los clientes al seguir de cerca los desarrollos actuales en la industria. Con los principios de calidad, precios competitivos y entrega rápida, Gazelli Grup tiene como objetivo proporcionar a los clientes la mejor experiencia de compra.
+
+Nuestra empresa, que opera con una visión constantemente renovadora, aumenta su confiabilidad en la industria al ofrecer soluciones rápidas y efectivas a las demandas de los clientes.</value>
+  </data>
+  <data name="helal" xml:space="preserve">
+    <value>Certificado Halal</value>
+  </data>
+  <data name="helall" xml:space="preserve">
+    <value>Servicio confiable</value>
+  </data>
+  <data name="ihtiyacınızolan" xml:space="preserve">
+    <value>Lo que necesitas</value>
+  </data>
+  <data name="kalıte" xml:space="preserve">
+    <value>La calidad, que se oculta en los detalles</value>
+  </data>
+  <data name="kalıtee" xml:space="preserve">
+    <value>cuidado</value>
+  </data>
+  <data name="kalıteee" xml:space="preserve">
+    <value>es un reflejo</value>
+  </data>
+  <data name="Kapalı" xml:space="preserve">
+    <value>Cerrado</value>
+  </data>
+  <data name="kelebek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Konu" xml:space="preserve">
+    <value>Sujeto</value>
+  </data>
+  <data name="kırık" xml:space="preserve">
+    <value>Pedazos de nuez</value>
+  </data>
+  <data name="kızıl" xml:space="preserve">
+    <value>NUEZ ÁMBAR</value>
+  </data>
+  <data name="MESA" xml:space="preserve">
+    <value>Enviar mensaje</value>
+  </data>
+  <data name="Mesajınız" xml:space="preserve">
+    <value>Tu mensaje...</value>
+  </data>
+  <data name="pazar" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="PazartesıCuma" xml:space="preserve">
+    <value>Lunes-Viernes</value>
+  </data>
+  <data name="SağlıkveLezzetinAdıGazelliCevizi" xml:space="preserve">
+    <value>El nombre de la salud y el sabor: Nueces Gazelli</value>
+  </data>
+  <data name="SosyalMedyadanBiziTakipEdin" xml:space="preserve">
+    <value>Síguenos en redes sociales</value>
+  </data>
+  <data name="str_welcome_message" xml:space="preserve">
+    <value>bienvenido</value>
+  </data>
+  <data name="Telefon" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>"Las piezas de nuez" generalmente se refieren al núcleo de nuez que ha sido retirado de la cáscara exterior, lo que significa que carece de la cáscara y las membranas internas. Estos núcleos internos de nuez, separados de sus cáscaras, a menudo se encuentran en forma rota o picada. Esto facilita consumir la nuez interior. Las nueces rotas se pueden utilizar en ensaladas, comidas, postres o aperitivos.</value>
+  </data>
+  <data name="text1" xml:space="preserve">
+    <value>Las nueces contienen nutrientes que ofrecen muchos beneficios para la salud, por lo que consumir nueces rotas contribuye a la ingesta de nutrientes como ácidos grasos omega-3, antioxidantes, vitaminas y minerales. Las nueces rotas, en particular, sirven como fuente de ácido alfa-linolénico (ALA), que es un ácido graso omega-3. Los ácidos grasos omega-3 pueden proporcionar varios beneficios para la salud, como respaldar la salud cerebral, la salud del corazón y combatir la inflamación. Las nueces son ricas en antioxidantes. Los antioxidantes pueden proteger el cuerpo contra los efectos nocivos de los radicales libres y reducir el daño celular.</value>
+  </data>
+  <data name="text2" xml:space="preserve">
+    <value>Las nueces contribuyen al control de peso debido a sus propiedades saciantes. Al ayudarte a sentirte lleno durante más tiempo, contribuyen a reducir el riesgo de comer en exceso. La fibra es un componente que contribuye a la salud digestiva y proporciona una sensación de saciedad. Las nueces son ricas en fibra. También sirven como fuente de proteínas de origen vegetal. Las proteínas son esenciales para la reparación de tejidos corporales, el desarrollo muscular y diversos procesos biológicos.</value>
+  </data>
+  <data name="text2.5" xml:space="preserve">
+    <value>Las vitaminas, minerales y antioxidantes que se encuentran en las nueces respaldan la salud de la piel y reducen los signos de envejecimiento. Las nueces contienen ácidos grasos omega-3, antioxidantes y otros nutrientes que respaldan la salud del corazón. Gracias a estas propiedades, pueden mejorar la salud cardiovascular.</value>
+  </data>
+  <data name="text3" xml:space="preserve">
+    <value>La nuez LIGTH AMBER es un producto de alta calidad recolectado de los árboles de nogal cultivados en la provincia de Kahramanmaraş, Turquía. Las características de sabor y aroma únicas de la nuez Maraş18 butterfly están moldeadas por las condiciones geográficas de esta región. Su cáscara delgada y su estructura interna grande ganan la aprobación incluso de los paladares más exigentes. Sin embargo, la nuez Maraş18 butterfly se destaca no solo por su sabor, sino también por sus beneficios para la salud.</value>
+  </data>
+  <data name="text3.5" xml:space="preserve">
+    <value>Rica en ácidos grasos omega-3, antioxidantes, vitamina E, magnesio y otros nutrientes, la nuez Maraş18 butterfly es beneficiosa para la salud cerebral y las funciones mentales. La investigación indica que el consumo regular de estos nutrientes puede contribuir a la renovación de las células cerebrales y a la mejora de las funciones cerebrales. Además, la nuez Maraş18 butterfly puede ayudar a reducir el riesgo de diversas enfermedades como problemas cardíacos, diabetes, cáncer y más. Se utiliza en muchas recetas diferentes, desde platos salados hasta postres. Puede consumirse tanto tostada como cruda.</value>
+  </data>
+  <data name="text4" xml:space="preserve">
+    <value>La nuez halves es un producto de alta calidad recolectado de los árboles de nogal cultivados en la provincia de Kahramanmaraş, Turquía. Las características de sabor y aroma únicas de la nuez Maraş18 butterfly están moldeadas por las condiciones geográficas de esta región. Su cáscara delgada y su estructura interna grande ganan la aprobación incluso de los paladares más exigentes. Sin embargo, la nuez Maraş18 butterfly se destaca no solo por su sabor, sino también por sus beneficios para la salud.</value>
+  </data>
+  <data name="text4.5" xml:space="preserve">
+    <value>Rica en ácidos grasos omega-3, antioxidantes, vitamina E, magnesio y otros nutrientes, la nuez Maraş18 butterfly es beneficiosa para la salud cerebral y las funciones mentales. La investigación indica que el consumo regular de estos nutrientes puede contribuir a la renovación de las células cerebrales y a la mejora de las funciones cerebrales. Además, la nuez Maraş18 butterfly puede ayudar a reducir el riesgo de diversas enfermedades como problemas cardíacos, diabetes, cáncer y más. Se utiliza en muchas recetas diferentes, desde platos salados hasta postres. Puede consumirse tanto tostada como cruda.</value>
+  </data>
+  <data name="text5" xml:space="preserve">
+    <value>La "AMBER WALNUT," perteneciente a la especie Juglans regia, es un tipo de nuez. El árbol de nogal persa suele ser grande y longevo, con hojas grandes y compuestas que tienen bordes dentados. El fruto de la nuez persa suele ser grande y tiene una cáscara resistente. La cáscara puede tener colores que van desde el marrón claro hasta el rojizo. La parte interna de la nuez persa, especialmente en algunas subespecies de Juglans regia, contiene un sabor y aceite ricos. Es un aperitivo altamente nutritivo y energizante. Las nueces persas crecen en climas templados y se pueden encontrar en una amplia área geográfica. Este tipo se cultiva a menudo en áreas forestales en Asia, Europa y América del Norte.</value>
+  </data>
+  <data name="text5.5" xml:space="preserve">
+    <value>Las nueces son ricas en ácidos grasos omega-3, antioxidantes, proteínas y fibra, lo que las convierte en una fuente de alimento saludable. Algunas investigaciones sugieren que consumir regularmente nueces puede respaldar la salud cardíaca y proporcionar otros beneficios para la salud. La cáscara de las nueces persas suele tener tonos de color que van desde el marrón hasta el rojizo, lo cual es particularmente pronunciado en nueces maduras y sirve como una característica distintiva respecto a otras variedades de nueces. La parte interna de la nuez persa, especialmente en subespecies específicas, tiene un sabor intenso y un aroma distintivo, lo que la convierte en una característica que la diferencia de otros tipos de nueces.</value>
+  </data>
+  <data name="urunGruplarımız" xml:space="preserve">
+    <value>Nuestras categorías de productos</value>
+  </data>
+  <data name="ÇEYREK" xml:space="preserve">
+    <value>CUARTOS DE NUEZ</value>
+  </data>
+  <data name="ürün" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Ürünlerimiz" xml:space="preserve">
+    <value>NUESTROS PRODUCTOS</value>
+  </data>
+  <data name="İletişim" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="ıhtıyacınızolan" xml:space="preserve">
+    <value>Lo que necesitas</value>
+  </data>
+  <data name="ıle" xml:space="preserve">
+    <value>Comunícate con nosotros</value>
+  </data>
+  <data name="ılet" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="ılett" xml:space="preserve">
+    <value>Ponte en contacto con nosotros</value>
+  </data>
+  <data name="ılettt" xml:space="preserve">
+    <value>Comunicación Rápida</value>
+  </data>
+  <data name="ıletttt" xml:space="preserve">
+    <value>Gazelli Grup, siempre prioriza la satisfacción del cliente al ofrecer productos de calidad a precios asequibles y entregas rápidas. Nos esforzamos continuamente por mejorar y operamos con una mentalidad abierta a la innovación para brindar el mejor servicio posible.</value>
+  </data>
+  <data name="ılettttt" xml:space="preserve">
+    <value>Gazelli Group: ¡Llevamos el sabor a todo el mundo!</value>
+  </data>
+  <data name="ıletısımeGec" xml:space="preserve">
+    <value>Comunícate con nosotros</value>
+  </data>
+  <data name="ıltttt" xml:space="preserve">
+    <value>Formulario de contacto</value>
+  </data>
+  <data name="ılttttt" xml:space="preserve">
+    <value>Envíanos un mensaje</value>
+  </data>
+  <data name="ıso" xml:space="preserve">
+    <value>Certificado ISO 9001</value>
+  </data>
+  <data name="ısoo" xml:space="preserve">
+    <value>Garantía Internacional</value>
+  </data>
+</root>

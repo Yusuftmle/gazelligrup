@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdSoyad" xml:space="preserve">
+    <value>Ad Soyad</value>
+  </data>
+  <data name="anasayfa" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="bal" xml:space="preserve">
+    <value>BAL KELEBEK CEVİZ</value>
+  </data>
+  <data name="Cumartesi" xml:space="preserve">
+    <value>Cumartesi</value>
+  </data>
+  <data name="DalındanSofranızaDünyanınHerNoktasına" xml:space="preserve">
+    <value>Dalından Sofranıza Dünyanın HerNoktasına</value>
+  </data>
+  <data name="Galeri" xml:space="preserve">
+    <value>Galeri</value>
+  </data>
+  <data name="gaz" xml:space="preserve">
+    <value>GAZELLİ GRUP</value>
+  </data>
+  <data name="Gorevımız" xml:space="preserve">
+    <value>Görevimiz</value>
+  </data>
+  <data name="Gorevımızz" xml:space="preserve">
+    <value>Kaliteli hizmet ve ürünler sunmaktır</value>
+  </data>
+  <data name="gruplarımız" xml:space="preserve">
+    <value>GRUPLARIMIZ</value>
+  </data>
+  <data name="Hakkımızd" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="hakkımızda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="hakkımızdaa" xml:space="preserve">
+    <value>2015 yılından beri faaliyet gösteren ceviz tutkunlarıyız.</value>
+  </data>
+  <data name="hakkımızdaaa" xml:space="preserve">
+    <value>Gazelli Grup Gıda Pazarlama Sanayi Ticaret LTD. ŞTİ., aile şirketi olan CEYLAN ailesi tarafından kurulmuştur. Özellikle kuruyemiş ve tarım ürünleri konusunda faaliyet gösteren firmamız, dünya genelinde, özellikle ABD, Şili, Ukrayna ve Türkiye'de faaliyet göstermektedir.İthalat portföyümüzde, Amerikan, Şili ve Ukrayna menşeili kabuklu ceviz ve ceviz ürünlerimiz buulunmaktadır. Gazelli Grup, sektörün önde gelen üreticilerinden doğrudan temin ettiğimiz kuruyemiş ve tarım ürünleri ile sizlerin ihtiyaçlarını karşılamaktadır.</value>
+  </data>
+  <data name="hakkımızdaaaa" xml:space="preserve">
+    <value>Gazelli Grup, müşteri memnuniyetini her zaman ön planda tutan bir anlayışla hareket etmektedir. Deneyimli ve uzman ekibimiz, sektördeki güncel gelişmeleri takip ederek müşterilere en iyi hizmeti sunma konusundaki taahhüdünü sürdürmektedir. Kalite, uygun fiyatlar ve hızlı teslimat prensipleriyle hareket eden Gazelli Grup, müşterilere en iyi alışveriş deneyimini yaşatmayı amaçlamaktadır.
+                            Sürekli kendini yenileyen bir vizyonla hareket eden firmamız, müşteri taleplerine hızlı ve etkili çözümler sunarak sektördeki güvenilirliğini artırmaktadır.</value>
+  </data>
+  <data name="helal" xml:space="preserve">
+    <value>Helal Sertifikamız</value>
+  </data>
+  <data name="helall" xml:space="preserve">
+    <value>Güvenilir Hizmet</value>
+  </data>
+  <data name="ihtiyacınızolan" xml:space="preserve">
+    <value>ihtiyacınız olan</value>
+  </data>
+  <data name="kalıte" xml:space="preserve">
+    <value>KALİTE, AYRINTILARDA GİZLİ OLAN</value>
+  </data>
+  <data name="kalıtee" xml:space="preserve">
+    <value>ÖZENİN</value>
+  </data>
+  <data name="kalıteee" xml:space="preserve">
+    <value>BİR YANSIMASIDIR.</value>
+  </data>
+  <data name="Kapalı" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="kelebek" xml:space="preserve">
+    <value>KELEBEK CEVİZ</value>
+  </data>
+  <data name="Konu" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="kırık" xml:space="preserve">
+    <value>KIRIK CEVİZ</value>
+  </data>
+  <data name="kızıl" xml:space="preserve">
+    <value>KIZIL CEVİZ</value>
+  </data>
+  <data name="MESA" xml:space="preserve">
+    <value>Mesajı Gönder</value>
+  </data>
+  <data name="pazar" xml:space="preserve">
+    <value>Pazar</value>
+  </data>
+  <data name="PazartesıCuma" xml:space="preserve">
+    <value>Pazartesi-Cuma</value>
+  </data>
+  <data name="SağlıkveLezzetinAdıGazelliCevizi" xml:space="preserve">
+    <value>Sağlık ve Lezzetin Adı Gazelli Cevizi</value>
+  </data>
+  <data name="SosyalMedyadanBiziTakipEdin" xml:space="preserve">
+    <value>Sosyal Medyadan Bizi Takip Edin</value>
+  </data>
+  <data name="str_welcome_message" xml:space="preserve">
+    <value>hoşgeldiniz</value>
+  </data>
+  <data name="Telefon" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Ceviz, sağlığa birçok fayda sağlayan besin öğeleri içerir,
+                            bu nedenle kırık ceviz tüketmek, omega-3 yağ asitleri, antioksidanlar,
+                            vitaminler ve mineraller gibi besin maddelerinin alımına katkıda bulunur.Kırık ceviz,
+                            özellikle alfa-linolenik asit (ALA) adı verilen bir omega-3 yağ asidi kaynağıdır. Omega-3 yağ asitleri, 
+                            beyin sağlığı, kalp sağlığı ve iltihapla mücadele gibi birçok sağlık yararı sağlayabilir.
+                            Ceviz, antioksidan bakımından zengindir. Antioksidanlar, vücudu serbest radikallerin zararlı etkilerine karşı koruyabilir ve hücresel hasarı azalt
+                        </value>
+  </data>
+  <data name="text1" xml:space="preserve">
+    <value>Kırık ceviz, genellikle cevizin iç kabuğundan çıkarılmış, yani kabuğu ve iç zarlarından arındırılmış
+                            ceviz içini ifade eder. 
+                            Kabuklarından ayrılmış haldeki bu iç cevizler genellikle kırık veya doğranmış bir formda bulunur.
+                            Bu durum, iç cevizin daha kolay tüketilmesini sağlar. Kırık ceviz, salatalarda, yemeklerde,
+                            tatlılarda veya atıştırmalıklarda kullanılabilir.</value>
+  </data>
+  <data name="text2" xml:space="preserve">
+    <value>Ceviz, doyurucu özelliklere sahip olduğu için kilo kontrolüne yardımcı olur. Uzun süre tok hissetmenize yardımcı olarak aşırı yeme riskini azaltabilir. Lif, sindirim sağlığına katkıda bulunan ve tokluk hissi sağlayan bir öğedir. Ceviz, lif açısından zengin bir kuruyemiş türüdür. Ceviz, bitkisel protein kaynağıdır. Protein, vücut dokularının onarılması, kas gelişimi ve diğer birçok biyolojik süreç için önemlidir.&lt;/div&gt;
+                     </value>
+  </data>
+  <data name="text2.5" xml:space="preserve">
+    <value>Cevizde bulunan vitaminler, mineraller ve antioksidanlar, cilt sağlığını destekler ve yaşlanma belirtilerini azaltır.Ceviz, kalp sağlığını destekleyen omega-3 yağ asitleri, antioksidanlar ve diğer besin maddeleri içerir. Bu özellikleri sayesinde kalp-damar sağlığını iyileştirebilir.
+             </value>
+  </data>
+  <data name="text3" xml:space="preserve">
+    <value>Türkiye’nin Kahramanmaraş ilinde yetişen ceviz ağaçlarından toplanan kaliteli bir üründür. Bu bölgedeki coğrafi koşullar, Maraş18 kelebek cevizinin benzersiz lezzet ve aroma özelliklerini oluşturur. İnce kabuklu ve büyük içli yapısı, en seçici damakların bile beğenisini kazanır. Bununla birlikte, Maraş18 kelebek cevizi sadece lezzetiyle değil aynı zamanda sağlık yararlarıyla da öne çıkar.Kelebek cevizin bal renginde olan çeşitidir.</value>
+  </data>
+  <data name="text3.5" xml:space="preserve">
+    <value>Omega-3 yağ asitleri, antioksidanlar, E vitamini, magnezyum ve diğer besin maddeleri açısından zengin olan Maraş18 kelebek cevizi, beyin sağlığı ve zihinsel fonksiyonlar için de faydalıdır. Araştırmalar, bu besin maddelerinin düzenli olarak tüketildiğinde beyin hücrelerinin yenilenmesine ve beyin fonksiyonlarının artmasına yardımcı olabileceğini göstermektedir. Ayrıca, Maraş18 kelebek cevizi, kalp sağlığı, diyabet, kanser ve diğer birçok hastalığın riskini azaltmaya da yardımcı olabilir.Yemeklerden tatlılara kadar birçok farklı tarifte kullanılan bir malzemedir. İster kavrulmuş, ister çiğ olarak kullanılabilir.</value>
+  </data>
+  <data name="text4" xml:space="preserve">
+    <value>Türkiye’nin Kahramanmaraş ilinde yetişen ceviz ağaçlarından toplanan kaliteli bir üründür. Bu bölgedeki coğrafi koşullar, Maraş18 kelebek cevizinin benzersiz lezzet ve aroma özelliklerini oluşturur. İnce kabuklu ve büyük içli yapısı, en seçici damakların bile beğenisini kazanır. Bununla birlikte, Maraş18 kelebek cevizi sadece lezzetiyle değil aynı zamanda sağlık yararlarıyla da öne çıkar.</value>
+  </data>
+  <data name="text4.5" xml:space="preserve">
+    <value>Omega-3 yağ asitleri, antioksidanlar, E vitamini, magnezyum ve diğer besin maddeleri açısından zengin olan Maraş18 kelebek cevizi, beyin sağlığı ve zihinsel fonksiyonlar için de faydalıdır. Araştırmalar, bu besin maddelerinin düzenli olarak tüketildiğinde beyin hücrelerinin yenilenmesine ve beyin fonksiyonlarının artmasına yardımcı olabileceğini göstermektedir. Ayrıca, Maraş18 kelebek cevizi, kalp sağlığı, diyabet, kanser ve diğer birçok hastalığın riskini azaltmaya da yardımcı olabilir.Yemeklerden tatlılara kadar birçok farklı tarifte kullanılan bir malzemedir. İster kavrulmuş, ister çiğ olarak kullanılabilir.</value>
+  </data>
+  <data name="text5" xml:space="preserve">
+    <value>Kızıl ceviz, Juglans regia türüne ait bir ceviz türüdür.
+                            Bu ceviz türünün özellikleri şunlardır:Kızıl ceviz ağacı genellikle büyük ve uzun ömürlüdür.
+                            Yaprakları genellikle büyük, bileşik ve dişli kenarlıdır.Kızıl ceviz meyvesi genellikle büyük, sert kabuklu ve içinde yenilebilen bir tohum bulunur.
+                            Kabuk, açık kahverengi ile kızıl arasında değişen renklere sahip olabilir.Kızıl cevizin içi, özellikle Juglans regia'nın bazı alt türleri, yoğun bir lezzet ve yağ içerir.
+                            Genellikle çok besleyici ve enerji verici bir atıştırmalıktır.Kızıl ceviz, genellikle ılıman iklimlerde yetişir ve geniş bir coğrafi alanda bulunabilir.
+                            Tür, genellikle Asya, Avrupa ve Kuzey Amerika'da bulunan ormanlık alanlarda yetişir.</value>
+  </data>
+  <data name="text5.5" xml:space="preserve">
+    <value>Cevizler, omega-3 yağ asitleri, antioksidanlar, protein ve lif bakımından zengindir, bu da sağlıklı bir besin kaynağı yapar.
+                            Bazı araştırmalar,
+                            düzenli olarak ceviz tüketmenin kalp sağlığını destekleyebileceğini
+                            ve diğer sağlık yararları sağlayabileceğini göstermiştir.Kızıl cevizin kabuğu genellikle kahverengi ile kızıl arasında değişen renk tonlarına sahiptir. 
+                            Bu, özellikle olgunlaşmış cevizlerde belirgindir ve diğer ceviz türlerinden ayırt edici özelliğidir.
+                            Kızıl cevizin içi, özellikle belirli alt türleri, yoğun bir lezzet ve belirgin bir aroma içerir.
+                            Bu, onu diğer ceviz türlerinden ayıran özelliklerden biridir.</value>
+  </data>
+  <data name="urunGruplarımız" xml:space="preserve">
+    <value>Ürün Gruplarımız </value>
+  </data>
+  <data name="ÇEYREK" xml:space="preserve">
+    <value>ÇEYREK CEVİZ</value>
+  </data>
+  <data name="ürün" xml:space="preserve">
+    <value>ÜRÜN</value>
+  </data>
+  <data name="Ürünlerimiz" xml:space="preserve">
+    <value>ÜRÜNLERİMİZ</value>
+  </data>
+  <data name="İletişim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="ıhtıyacınızolan" xml:space="preserve">
+    <value>İhtiyacınız Olan</value>
+  </data>
+  <data name="ıle" xml:space="preserve">
+    <value>İletişime Geç</value>
+  </data>
+  <data name="ılet" xml:space="preserve">
+    <value>İLETİŞİM</value>
+  </data>
+  <data name="ılett" xml:space="preserve">
+    <value>BİZİMLE İLETİŞİME GEÇ</value>
+  </data>
+  <data name="ılettt" xml:space="preserve">
+    <value>Hızlı İletişim</value>
+  </data>
+  <data name="ıletttt" xml:space="preserve">
+    <value>Gazelli Grup olarak, kaliteli ürünleri uygun fiyatlarla ve kısa sürede sizlere ulaştırarak müşteri memnuniyetini ön planda tutuyoruz. Sizlere en iyi hizmeti verebilmek adına sürekli olarak kendimizi geliştiriyor ve yeniliklere açık bir anlayışla hareket ediyoruz.</value>
+  </data>
+  <data name="ılettttt" xml:space="preserve">
+    <value>Gazelli Group: Lezzeti Dünya Geneline Taşıyoruz!</value>
+  </data>
+  <data name="ıletısımeGec" xml:space="preserve">
+    <value>İletişime Geç</value>
+  </data>
+  <data name="ıltttt" xml:space="preserve">
+    <value>İletişim Formu</value>
+  </data>
+  <data name="ılttttt" xml:space="preserve">
+    <value>BİZE MESAJ GÖNDERİN</value>
+  </data>
+  <data name="ıso" xml:space="preserve">
+    <value>ISO 9001 Sertifikamız</value>
+  </data>
+  <data name="ısoo" xml:space="preserve">
+    <value>Uluslararası Güvence</value>
+  </data>
+</root>

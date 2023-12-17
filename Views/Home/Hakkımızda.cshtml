@@ -1,0 +1,131 @@
+﻿
+<body id="about-me">
+    <div class="bg-image">
+        <div class="backgrond"></div>
+        
+    </div>
+    <div class="eleven">
+        <h1> @_localization.Getkey("hakkımızda")</h1>
+    </div>
+           
+   
+<!--
+==================================================
+Slider Section Start
+================================================== -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="title"></span>
+                            <h2>@_localization.Getkey("hakkımızdaa")</h2>
+                        </div>
+                        <div class="text">
+                            @_localization.Getkey("hakkımızdaaa")</div>
+                        <div class="text">
+                            @_localization.Getkey("hakkımızdaaaa")
+                            
+                        </div>
+                        <div class="btn-box">
+                            <a href="/home/İletisim" class="theme-btn btn-style-one"> @_localization.Getkey("ıletısımeGec")</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+
+                <figure class="image-1"><a href="#" class="lightbox-image w-100" data-fancybox="images"><img  src="/Adsız_tasarım__13_-removebg.png" alt=""></a></figure>
+
+                    </div>
+                </div>
+      
+           
+       
+    </section>
+    <div class="video-container">
+        <video autoplay loop muted poster="poster.jpg">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="slider-container">
+        <div class="left-slide">
+           
+            <div style="color: #8485d6">
+                <h1>@_localization.Getkey("ıso")</h1>
+                <p>@_localization.Getkey("ısoo")</p>
+            </div>
+            <div style="color: #c0a288">
+                <h1>@_localization.Getkey("helal")</h1>
+                <p>@_localization.Getkey("helall")</p>
+            </div>
+        </div>
+        <div class="right-slide">
+            <div style="background-image: url('/sertifika1.png')">
+            </div>
+            <div style="background-image: url('/sertifika2.png')">
+            </div>
+           
+        </div>
+        <div class="action-buttons">
+            <button class="down-button"><i class="fa-solid fa-caret-down"></i></button>
+            <button class="up-button"><i class="fa-solid fa-caret-up"></i></button>
+        </div>
+    </div>
+    <script>
+        const sliderContainer = document.querySelector(".slider-container");
+const slideRight = document.querySelector(".right-slide");
+const slideLeft = document.querySelector(".left-slide");
+const upButton = document.querySelector(".up-button");
+const downButton = document.querySelector(".down-button");
+const slidesLength = slideRight.querySelectorAll("div").length;
+
+let activeSlideIndex = 0;
+
+slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
+
+upButton.addEventListener("click", () => changeSlide("up"));
+downButton.addEventListener("click", () => changeSlide("down"));
+
+const changeSlide = (direction) => {
+  const sliderHeight = sliderContainer.clientHeight;
+  if (direction === "up") {
+    activeSlideIndex++;
+    if (activeSlideIndex > slidesLength - 1) {
+      activeSlideIndex = 0;
+    }
+  } else if (direction === "down") {
+    activeSlideIndex--;
+    if (activeSlideIndex < 0) {
+      activeSlideIndex = slidesLength - 1;
+    }
+  }
+
+  slideRight.style.transform = `translateY(-${
+    activeSlideIndex * sliderHeight
+  }px)`;
+  slideLeft.style.transform = `translateY(${
+    activeSlideIndex * sliderHeight
+  }px)`;
+};
+    </script>
+   <script>
+        const boxes = document.querySelectorAll('.about-section');
+
+        observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add('curtain');
+                } else {
+                    entry.target.classList.remove('curtain');
+                }
+            });
+        });
+
+        boxes.forEach(box => {
+            observer.observe(box);
+        });
+   </script>
+</body>

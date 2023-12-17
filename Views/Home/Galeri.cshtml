@@ -1,0 +1,191 @@
+﻿
+<body>
+
+    <div class="bg-image3 w-100">
+        <div class="backgrond3"></div>
+
+    </div>
+    <div class="eleven">
+        <h1>GALERİ</h1>
+    </div>
+    <h1>S</h1>
+    
+
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+
+    <script src="spotlight.bundle.js"></script>
+    <div class="container-md">
+        <div class="gallery">
+            <div class="gallery__column">
+                <a href="/1.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/1.jpg"
+                             class="gallery__image">
+                        <figcaption class="gallery__caption">kahve</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/2.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/2.jpg"
+                             class="gallery__image">
+                        <figcaption class="gallery__caption">ceviz</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/3.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/3.jpg"
+                             class="gallery__image">
+                        <figcaption class="gallery__caption">kuruyemiş</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="/4.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/4.jpg"
+                              class="gallery__image">
+                        <figcaption class="gallery__caption">ceviz</figcaption>
+                    </figure>
+                </a>
+
+                    <a href="/5.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/5.jpg"
+                             class="gallery__image">
+                        <figcaption class="gallery__caption">konserve gıda</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/6.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/6.jpg "
+                              class="gallery__image">
+                        <figcaption class="gallery__caption">fransız cevizi</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="/7.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/7.jpg"
+                             alt="Portrait by Mari Lezhava" class="gallery__image">
+                        <figcaption class="gallery__caption">Baharatlar</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/8.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/8.jpg"
+                             alt="Portrait by Ethan Haddox" class="gallery__image">
+                        <figcaption class="gallery__caption">otlar</figcaption>
+                    </figure>
+                </a>
+                <a href="/9.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/9.jpg"
+                             alt="Portrait by Amir Geshani" class="gallery__image">
+                        <figcaption class="gallery__caption">ceviz</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery__column">
+                <a href="/10.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/10.jpg"
+                             alt="Portrait by Tyler Nix" class="gallery__image">
+                        <figcaption class="gallery__caption">kahve</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/12.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/12.jpg"
+                             alt="Portrait by Jasmin Chew" class="gallery__image">
+                        <figcaption class="gallery__caption">ceviz</figcaption>
+                    </figure>
+                </a>
+                <a href="/11.jpg" target="_blank" class="modal-link">
+                    <figure class="gallery__thumb">
+                        <img src="/11.jpg"
+                             alt="Portrait by Dima DallAcqua" class="gallery__image">
+                        <figcaption class="gallery__caption">kahve</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        var modal = document.getElementById("modal");
+        var closeButton = document.getElementsByClassName("close")[0];
+
+        var links = document.getElementsByClassName("modal-link");
+        var modalImage = document.getElementById("modal-image");
+
+        function openModal(imageSrc) {
+            modal.style.display = "block";
+            modalImage.src = imageSrc;
+        }
+
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        Array.from(links).forEach(function (link) {
+            link.addEventListener("click", function (event) {
+                event.preventDefault();
+                openModal(this.href);
+            });
+        });
+
+        closeButton.addEventListener("click", closeModal);
+
+        window.addEventListener("click", function (event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+
+        });
+        function showNextImage() {
+            currentIndex = (currentIndex + 1) % links.length;
+            showImage(currentIndex);
+        }
+
+        function showPrevImage() {
+            currentIndex = (currentIndex - 1 + links.length) % links.length;
+            showImage(currentIndex);
+        }
+
+        closeButton.addEventListener("click", closeModal);
+
+        window.addEventListener("click", function (event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "ArrowRight") {
+                showNextImage();
+            } else if (event.key === "ArrowLeft") {
+                showPrevImage();
+            }
+        });
+    </script>
+</body>

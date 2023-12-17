@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdSoyad" xml:space="preserve">
+    <value>Name Surname</value>
+  </data>
+  <data name="anasayfa" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="bal" xml:space="preserve">
+    <value>LİGHT AMBER</value>
+  </data>
+  <data name="Cumartesi" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="DalındanSofranızaDünyanınHerNoktasına" xml:space="preserve">
+    <value>From Branch to Your Table to Every Point of the World</value>
+  </data>
+  <data name="Galeri" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="gaz" xml:space="preserve">
+    <value>GAZELLİ GROUP</value>
+  </data>
+  <data name="Gorevımız" xml:space="preserve">
+    <value>Our Mission</value>
+  </data>
+  <data name="Gorevımızz" xml:space="preserve">
+    <value>To provide quality service and products</value>
+  </data>
+  <data name="gruplarımız" xml:space="preserve">
+    <value>GROUPS</value>
+  </data>
+  <data name="Hakkımızd" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="hakkımızda" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="hakkımızdaa" xml:space="preserve">
+    <value>Walnut with enthusiasm, since 2015.</value>
+  </data>
+  <data name="hakkımızdaaa" xml:space="preserve">
+    <value>Gazelli Group Food Marketing Import Export Limited Company was established by the 'Ceylan' family as a family-owned company. Our company operates particularly in the field of dried fruits and agricultural products, conducting business globally, with a focus on the United States, Chile, Ukraine, and Turkey. In our import portfolio, we offer products such as walnuts, almonds (with shell and without shell) sourced from the United States, Chile, and Ukraine. Gazelli Group meets your needs with dried fruits and agricultural products directly sourced from leading manufacturers in the industry.</value>
+  </data>
+  <data name="hakkımızdaaaa" xml:space="preserve">
+    <value>Gazelli Group operates with a commitment to always prioritize customer satisfaction. Our experienced and expert team continues to uphold the commitment to providing the best service to customers by staying abreast of current developments in the industry. Our company, guided by principles of quality, competitive pricing, and swift delivery, enhances its reliability in the industry by offering fast and effective solutions to customer demands.</value>
+  </data>
+  <data name="helal" xml:space="preserve">
+    <value>Our Halal Certificate</value>
+  </data>
+  <data name="helall" xml:space="preserve">
+    <value>Reliable Service</value>
+  </data>
+  <data name="kalıte" xml:space="preserve">
+    <value>Quality is a reflection of the</value>
+  </data>
+  <data name="kalıtee" xml:space="preserve">
+    <value>meticulous</value>
+  </data>
+  <data name="kalıteee" xml:space="preserve">
+    <value>care hidden in the details</value>
+  </data>
+  <data name="Kapalı" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="kelebek" xml:space="preserve">
+    <value>HALVES WALNUT</value>
+  </data>
+  <data name="Konu" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="kırık" xml:space="preserve">
+    <value>Pieces Walnut</value>
+  </data>
+  <data name="kızıl" xml:space="preserve">
+    <value>AMBER WALNUT</value>
+  </data>
+  <data name="MESA" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="Mesajınız" xml:space="preserve">
+    <value>Your message...</value>
+  </data>
+  <data name="pazar" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="PazartesıCuma" xml:space="preserve">
+    <value>Monday-Friday</value>
+  </data>
+  <data name="privacy" xml:space="preserve">
+    <value>gizlilik</value>
+  </data>
+  <data name="SağlıkveLezzetinAdıGazelliCevizi" xml:space="preserve">
+    <value>The Name of Health and Taste is Gazelli Walnut</value>
+  </data>
+  <data name="SosyalMedyadanBiziTakipEdin" xml:space="preserve">
+    <value>Follow Us on Social Media</value>
+  </data>
+  <data name="str_welcome_message" xml:space="preserve">
+    <value>Welcome in English</value>
+  </data>
+  <data name="Telefon" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Pieces  walnut generally refers to the walnut kernel that has been removed from the outer shell, meaning it is devoid of the shell and inner membranes. These inner walnut kernels, separated from their shells, are often found in broken or chopped form. This makes it easier to consume the inner walnut. Broken walnuts can be used in salads, meals, desserts, or snacks.</value>
+  </data>
+  <data name="text1" xml:space="preserve">
+    <value>Walnuts contain nutrients that provide many health benefits, so consuming broken walnuts contributes to the intake of nutrients such as omega-3 fatty acids, antioxidants, vitamins, and minerals. Broken walnuts, in particular, serve as a source of alpha-linolenic acid (ALA), which is an omega-3 fatty acid. Omega-3 fatty acids can offer various health benefits, including supporting brain health, heart health, and combating inflammation. Walnuts are rich in antioxidants. Antioxidants can protect the body against the harmful effects of free radicals and reduce cellular damage.</value>
+  </data>
+  <data name="text2" xml:space="preserve">
+    <value>Walnuts contribute to weight control due to their filling properties. By helping you feel full for a longer time, they contribute to reducing the risk of overeating. Fiber is an ingredient that contributes to digestive health and provides a sense of fullness. Walnuts are rich in fiber. They also serve as a plant-based protein source. Protein is essential for the repair of body tissues, muscle development, and various other biological processes.</value>
+  </data>
+  <data name="text2.5" xml:space="preserve">
+    <value>The vitamins, minerals, and antioxidants found in walnuts support skin health and reduce signs of aging. Walnuts contain omega-3 fatty acids, antioxidants, and other nutrients that support heart health. Thanks to these properties, they can improve cardiovascular health.</value>
+  </data>
+  <data name="text3" xml:space="preserve">
+    <value>LİGHT AMBER walnut is a high-quality product collected from walnut trees grown in the Kahramanmaraş province of Turkey. The unique taste and aroma characteristics of Maraş18 butterfly walnut are shaped by the geographical conditions in this region. Its thin-shell and large inner structure win the approval of even the most discerning palates. However, Maraş18 butterfly walnut stands out not only for its taste but also for its health benefits.</value>
+  </data>
+  <data name="text3.5" xml:space="preserve">
+    <value>Rich in omega-3 fatty acids, antioxidants, vitamin E, magnesium, and other nutrients, Maraş18 butterfly walnut is beneficial for brain health and mental functions. Research indicates that regular consumption of these nutrients may contribute to the renewal of brain cells and the improvement of brain functions. Additionally, Maraş18 butterfly walnut can help reduce the risk of various diseases such as heart health, diabetes, cancer, and more. It is used in many different recipes, ranging from savory dishes to desserts. It can be consumed either roasted or raw.</value>
+  </data>
+  <data name="text4" xml:space="preserve">
+    <value>HALVES  walnut is a high-quality product collected from walnut trees grown in the Kahramanmaraş province of Turkey. The unique taste and aroma characteristics of Maraş18 butterfly walnut are shaped by the geographical conditions in this region. Its thin-shell and large inner structure win the approval of even the most discerning palates. However, Maraş18 butterfly walnut stands out not only for its taste but also for its health benefits.</value>
+  </data>
+  <data name="text4.5" xml:space="preserve">
+    <value>Rich in omega-3 fatty acids, antioxidants, vitamin E, magnesium, and other nutrients, Maraş18 butterfly walnut is beneficial for brain health and mental functions. Research indicates that regular consumption of these nutrients may contribute to the renewal of brain cells and the improvement of brain functions. Additionally, Maraş18 butterfly walnut can help reduce the risk of various diseases such as heart health, diabetes, cancer, and more. It is used in many different recipes, ranging from savory dishes to desserts. It can be consumed either roasted or raw.</value>
+  </data>
+  <data name="text5" xml:space="preserve">
+    <value>AMBER  walnut, belonging to the Juglans regia species, is a type of walnut. The Persian walnut tree is typically large and long-lived, with large, compound leaves that have serrated edges. The fruit of the Persian walnut is generally large and has a tough shell. The shell may have colors ranging from light brown to reddish. The inner part of the Persian walnut, especially in some subspecies of Juglans regia, contains a rich flavor and oil. It is a highly nutritious and energizing snack. Persian walnuts grow in temperate climates and can be found in a wide geographical area. This type is often cultivated in forested areas in Asia, Europe, and North America.</value>
+  </data>
+  <data name="text5.5" xml:space="preserve">
+    <value>Walnuts are rich in omega-3 fatty acids, antioxidants, protein, and fiber, making them a healthy food source. Some research suggests that regularly consuming walnuts can support heart health and provide other health benefits. The shell of Persian walnuts typically has color tones ranging between brown and reddish, which is particularly pronounced in mature walnuts and serves as a distinguishing feature from other walnut varieties. The inner part of the Persian walnut, especially in specific subspecies, carries an intense flavor and distinctive aroma, making it a characteristic that sets it apart from other walnut types.</value>
+  </data>
+  <data name="urunGruplarımız" xml:space="preserve">
+    <value>Product Categories</value>
+  </data>
+  <data name="ÇEYREK" xml:space="preserve">
+    <value>QUARTER HALVES WALNUT</value>
+  </data>
+  <data name="ürün" xml:space="preserve">
+    <value>PRODUCT</value>
+  </data>
+  <data name="Ürünlerimiz" xml:space="preserve">
+    <value>OUR PRODUCTS</value>
+  </data>
+  <data name="İletişim" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ıhtıyacınızolan" xml:space="preserve">
+    <value>you need</value>
+  </data>
+  <data name="ıle" xml:space="preserve">
+    <value>contact me</value>
+  </data>
+  <data name="ılet" xml:space="preserve">
+    <value>CONTACT </value>
+  </data>
+  <data name="ılett" xml:space="preserve">
+    <value>CONTACT US</value>
+  </data>
+  <data name="ılettt" xml:space="preserve">
+    <value>Quick Contact</value>
+  </data>
+  <data name="ıletttt" xml:space="preserve">
+    <value>As Gazelli Group, we deliver high-quality products to you at affordable prices and in a short time, prioritizing customer satisfaction. In order to provide you with the best service, we continuously improve ourselves and operate with an open-minded approach to innovation.</value>
+  </data>
+  <data name="ılettttt" xml:space="preserve">
+    <value>Gazelli Group: Bringing the Taste to Worldwide!</value>
+  </data>
+  <data name="ıletısımeGec" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="ıltttt" xml:space="preserve">
+    <value>Contact Form</value>
+  </data>
+  <data name="ılttttt" xml:space="preserve">
+    <value>SEND US A MESSAGE</value>
+  </data>
+  <data name="ıso" xml:space="preserve">
+    <value>Our ISO 9001 Certificate</value>
+  </data>
+  <data name="ısoo" xml:space="preserve">
+    <value>International Assurance</value>
+  </data>
+</root>
